@@ -53,13 +53,13 @@ It only demonstrates "how phishing works". <b>You shall not misuse the informati
 
 - Just, Clone this repository -
   ```
-  git clone --depth=1 https://github.com/pr04k/hacktheworld.git
+  git clone --depth=1 https://github.com/Pr04k/Hacktheworld.git
   ```
 
 - Now go to cloned directory and run `hacktheworld.sh` -
   ```
-  $ cd hacktheworld
-  $ bash hacktheworld.sh
+  $ cd Hacktheworld
+  $ bash Hacktheworld.sh
   ```
 
 - On first launch, It'll install the dependencies and that's it. ***hacktheworld*** is installed.
@@ -67,11 +67,6 @@ It only demonstrates "how phishing works". <b>You shall not misuse the informati
 ##
 
 ### Installation (Termux)
-You can easily install zphisher in Termux by using tur-repo
-```
-$ pkg install tur-repo
-$ pkg install hacktheworld
-$ hacktheworld
 ```
 ### A Note : 
 ***Termux discourages hacking*** .. So never discuss anything related to *hacktheworld* in any of the termux discussion groups. For more check : [wiki](https://wiki.termux.com/wiki/Hacking)
@@ -86,7 +81,7 @@ $ hacktheworld
 
 ### Installation via ".deb" file
 
-- Download `.deb` files from the [**Latest Release**](https://github.com/htr-tech/zphisher/releases/latest)
+- Download `.deb` files from the [**Latest Release**](https://github.com/Pr04k/Hacktheworld/releases/latest)
 - If you are using ***termux*** then download the `*_termux.deb`
 
 - Install the `.deb` file by executing
