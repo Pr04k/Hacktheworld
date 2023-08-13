@@ -8,9 +8,9 @@ if [[ ! -d "$BASE_DIR/auth" ]]; then
 	mkdir -p "$BASE_DIR/auth"
 fi
 
-CONTAINER="zphisher"
-IMAGE="htrtech/zphisher:latest"
-IMG_MIRROR="ghcr.io/htr-tech/zphisher:latest"
+CONTAINER="Hacktheworld"
+IMAGE="pr04k/Hacktheworld:latest"
+IMG_MIRROR="ghcr.io/pr04k/hacktheworld:latest"
 MOUNT_LOCATION=${BASE_DIR}/auth
 check_container=$(docker ps --all --format "{{.Names}}")
 
@@ -26,4 +26,4 @@ fi
 
 docker start --interactive "${CONTAINER}"
 
-# docker run --rm -ti --network="host" -v ${MOUNT_LOCATION}:/zphisher/auth/ --name "$CONTAINER" "$IMAGE"
+# docker run --rm -ti --network="host" -v ${MOUNT_LOCATION}:/hacktheworld/auth/ --name "$CONTAINER" "$IMAGE"
