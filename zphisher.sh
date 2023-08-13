@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ##   Zphisher 	: 	Automated Phishing Tool
-##   Author 	: 	TAHMID RAYAT 
+##   Author 	: pr04k
 ##   Version 	: 	2.3.5
 ##   Github 	: 	https://github.com/htr-tech/zphisher
 
@@ -200,31 +200,33 @@ check_status() {
 	[ $? -eq 0 ] && echo -e "${GREEN}Online${WHITE}" && check_update || echo -e "${RED}Offline${WHITE}"
 }
 
+
+
 ## Banner
 banner() {
-	cat <<- EOF
-		${ORANGE}
-		${ORANGE} ______      _     _     _               
-		${ORANGE}|___  /     | |   (_)   | |              
-		${ORANGE}   / / _ __ | |__  _ ___| |__   ___ _ __ 
-		${ORANGE}  / / | '_ \| '_ \| / __| '_ \ / _ \ '__|
-		${ORANGE} / /__| |_) | | | | \__ \ | | |  __/ |   
-		${ORANGE}/_____| .__/|_| |_|_|___/_| |_|\___|_|   
-		${ORANGE}      | |                                
-		${ORANGE}      |_|                ${RED}Version : ${__version__}
+        cat <<- EOF
+                ${ORANGE}  _   _            _    _   _                             _     _
+                ${ORANGE} | | | | __ _  ___| | _| |_| |__   _____      _____  _ __| | __| |
+                ${ORANGE} | |_| |/ _` |/ __| |/ / __| '_ \ / _ \ \ /\ / / _ \| '__| |/ _` |
+                ${ORANGE} |  _  | (_| | (__|   <| |_| | | |  __/\ V  V / (_) | |  | | (_| |
+                ${ORANGE} |_| |_|\__,_|\___|_|\_\\__|_| |_|\___| \_/\_/ \___/|_|  |_|\__,_|
+                ${ORANGE}                         ${RED}Version : ${__version__}
 
-		${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by htr-tech (tahmid.rayat)${WHITE}
-	EOF
+                ${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by pr04k (tahmid.rayat)${WHITE}
+        EOF
 }
 
 ## Small Banner
 banner_small() {
-	cat <<- EOF
-		${BLUE}
-		${BLUE}  ░▀▀█░█▀█░█░█░▀█▀░█▀▀░█░█░█▀▀░█▀▄
-		${BLUE}  ░▄▀░░█▀▀░█▀█░░█░░▀▀█░█▀█░█▀▀░█▀▄
-		${BLUE}  ░▀▀▀░▀░░░▀░▀░▀▀▀░▀▀▀░▀░▀░▀▀▀░▀░▀${WHITE} ${__version__}
-	EOF
+        cat <<- EOF
+                ${BLUE}  m    m               #        m    #                                  ""#        #
+                ${BLUE}  #    #  mmm    mmm   #   m  mm#mm  # mm    mmm  m     m  mmm    m mm    #     mmm#
+                ${BLUE}  #mmmm# "   #  #"  "  # m"     #    #"  #  #"  # "m m m" #" "#   #"  "   #    #" "#
+                ${BLUE}  #    # m"""#  #      #"#      #    #   #  #""""  #m#m#  #   #   #       #    #   #
+                ${BLUE}  #    # "mm"#  "#mm"  #  "m    "mm  #   #  "#mm"   # #   "#m#"   #       "mm  "#m##
+                ${BLUE}
+                ${BLUE}  ${WHITE} ${__version__}
+        EOF
 }
 
 ## Dependencies
