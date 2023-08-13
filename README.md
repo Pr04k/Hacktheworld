@@ -53,16 +53,16 @@ It only demonstrates "how phishing works". <b>You shall not misuse the informati
 
 - Just, Clone this repository -
   ```
-  git clone --depth=1 https://github.com/htr-tech/zphisher.git
+  git clone --depth=1 https://github.com/pr04k/hacktheworld.git
   ```
 
-- Now go to cloned directory and run `zphisher.sh` -
+- Now go to cloned directory and run `hacktheworld.sh` -
   ```
-  $ cd zphisher
-  $ bash zphisher.sh
+  $ cd hacktheworld
+  $ bash hacktheworld.sh
   ```
 
-- On first launch, It'll install the dependencies and that's it. ***Zphisher*** is installed.
+- On first launch, It'll install the dependencies and that's it. ***hacktheworld*** is installed.
 
 ##
 
@@ -70,11 +70,11 @@ It only demonstrates "how phishing works". <b>You shall not misuse the informati
 You can easily install zphisher in Termux by using tur-repo
 ```
 $ pkg install tur-repo
-$ pkg install zphisher
-$ zphisher
+$ pkg install hacktheworld
+$ hacktheworld
 ```
 ### A Note : 
-***Termux discourages hacking*** .. So never discuss anything related to *zphisher* in any of the termux discussion groups. For more check : [wiki](https://wiki.termux.com/wiki/Hacking)
+***Termux discourages hacking*** .. So never discuss anything related to *hacktheworld* in any of the termux discussion groups. For more check : [wiki](https://wiki.termux.com/wiki/Hacking)
 
 ##
 
@@ -106,23 +106,23 @@ $ zphisher
 - Docker Image Mirror:
   - **DockerHub** : 
     ```
-    docker pull htrtech/zphisher
+    docker pull pr04k/hacktheworld
     ```
   - **GHCR** : 
     ```
-    docker pull ghcr.io/htr-tech/zphisher:latest
+    docker pull ghcr.io/pr04k/hacktheworld:latest
     ```
 
-- By using the wrapper script [**run-docker.sh**](https://raw.githubusercontent.com/htr-tech/zphisher/master/run-docker.sh)
+- By using the wrapper script [**run-docker.sh**](https://raw.githubusercontent.com/pr04k/hacktheworld/master/run-docker.sh)
 
   ```
-  $ curl -LO https://raw.githubusercontent.com/htr-tech/zphisher/master/run-docker.sh
+  $ curl -LO https://raw.githubusercontent.com/pr04k/hacktheworld/master/run-docker.sh
   $ bash run-docker.sh
   ```
 - Temporary Container
 
   ```
-  docker run --rm -ti htrtech/zphisher
+  docker run --rm -ti pr04k/hacktheworld
   ```
   - Remember to mount the `auth` directory.
 
@@ -136,7 +136,7 @@ $ zphisher
 - `curl`
 - `php`
 
-> All the dependencies will be installed automatically when you run **Zphisher** for the first time.
+> All the dependencies will be installed automatically when you run **phisher** for the first time.
 </details>
 
 <details>
@@ -161,8 +161,8 @@ $ zphisher
 
 ### Find Me on:
 <p align="left">
-  <a href="https://tahmidrayat.is-a.dev" target="_blank"><img src="https://img.shields.io/badge/Socials-grey?style=for-the-badge&logo=linktree"></a>
-  <a href="https://github.com/htr-tech" target="_blank"><img src="https://img.shields.io/badge/Github-blue?style=for-the-badge&logo=github"></a>
+  <a " target="_blank"><img src="https://img.shields.io/badge/Socials-grey?style=for-the-badge&logo=linktree"></a>
+  <a href="https://github.com/pr04k" target="_blank"><img src="https://img.shields.io/badge/Github-blue?style=for-the-badge&logo=github"></a>
 </p>
 
 
